@@ -10,12 +10,11 @@ body {
 .container .content {
   width: 1249px;
   margin: 0 auto;
-  padding: 0 18px;
   box-sizing: border-box;
 }
 .container .header {
   background-color: #f6f2f2;
-  padding-top: 28px;
+  padding: 28px 0 109px;
 }
 .container .header .nav {
   background-color: #313030;
@@ -48,4 +47,45 @@ body {
 }
 .container .header .nav .header_nav .contact {
   margin-left: 17px;
+}
+.container .header .header_bottom {
+  display: flex;
+  padding-top: 92px;
+}
+.container .header .header_bottom .description {
+  width: 50%;
+}
+.container .header .header_bottom .description .h1 {
+  font-weight: 800;
+  font-size: 60px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: .9px;
+}
+.container .header .header_bottom .description .h1 span {
+  letter-spacing: 6px;
+}
+.container .header .header_bottom .description .text {
+  font-size: 16px;
+  color: #979494;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+.container .header .header_bottom .description .btn {
+  outline: none;
+  cursor: pointer;
+  background-color: #ff2d2d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px 65px;
+  border-radius: 5px;
+  border: none;
+}
+.container .header .header_bottom .video_description {
+  width: 50%;
+}
+.container .header .header_bottom .video_description .video {
+  padding: 10px 0 0 77px;
 }
